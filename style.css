@@ -1,0 +1,11 @@
+*{
+  box-sizing: border-box;
+}
+nav ul{
+  list-style-type: none;
+  display: inline-block;
+}
+nav a{
+  text-decoration: none;
+
+}
