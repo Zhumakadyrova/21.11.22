@@ -1,11 +1,25 @@
 *{
   box-sizing: border-box;
 }
-nav ul{
+nav{
+  background-color: bisque;
+}
+nav ul li{
   list-style-type: none;
-  display: inline-block;
+  display:inline-flex;
+  justify-content: space-between;
+  
 }
 nav a{
   text-decoration: none;
-
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(100, 21, 21);
+  font-weight: 550;
+}
+a:hover{
+  text-shadow: 0 0 10px rgba(67, 59, 59, 0.692);
+}
+a:focus{
+  text-decoration: underline;
 }
