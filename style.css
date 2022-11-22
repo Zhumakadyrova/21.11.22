@@ -28,6 +28,7 @@ a:focus{
   width: 300px;
 }
 .picture-1{
+  padding-top: 20px;
   height: 300px;
   width: 400px;
   float: left;
@@ -70,4 +71,23 @@ a:focus{
 [data-popover]:focus::after,
 [data-popover]:focus::before {
   display: block;
+}
+.section-4{
+  height: 300px;
+  max-width: 300px;
+}
+.section-4 img{
+  height: 300px;
+  width: 300px;
+  border-radius: 18px;
+
+}
+.section-4 p{
+  text-align: center ;
+  color: rgb(74, 62, 62);
+  font-size: 20px;
+  padding-bottom: -8px;
+}
+.section-4 p:hover{
+  text-shadow: 0 0 10px;
 }
